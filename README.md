@@ -99,7 +99,7 @@ The board integrates an **ESP32-WROOM-32** Wi-Fi & Bluetooth microcontroller mod
 
 ### Verification Methodology & Results
 - **Schematic ERC:** Passed with **0 errors and 0 warnings**. Power flags, pin types, and hierarchical nets verified. See [docs/erc-report.rpt](docs/erc-report.rpt).
-- **PCB DRC:** Passed with **0 violations and 0 unconnected items**. Track widths, clearances, annular rings, drill sizes, and solder mask bridges conform to standard 2-layer PCB fabrication specifications. See [docs/drc-report.rpt](docs/drc-report.rpt).
+- **PCB DRC:** The report shows zero violations and zero unconnected items under the current project-specific constraints. The settings include a 0.20 mm minimum through-hole drill and a 0.175 mm minimum hole clearance. These settings do not guarantee manufacturer acceptance or fabrication readiness. Review the switch footprint clearances and confirm the design rules with the selected manufacturer before fabrication. See [docs/drc-report.rpt](docs/drc-report.rpt).
 - **Copper Architecture:** Solid ground polygon pours on both Top (F.Cu) and Bottom (B.Cu) layers, interconnected with stitching vias for thermal relief and return path continuity.
 - **RF Best Practices:** Antenna trace area isolated from underlying copper planes and external routing traces to ensure signal integrity.
 
