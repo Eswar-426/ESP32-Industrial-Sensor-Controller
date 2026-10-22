@@ -153,6 +153,6 @@ ESP32-Industrial-Sensor-Controller/
 
 ## Author
 
-**Eswar**  
+**Kanchi Eswar Ram kumar** ([@Eswar-426](https://github.com/Eswar-426))  
 ECE Undergraduate | Class of 2026  
 *Developed as a PCB design and embedded systems portfolio project.*

@@ -12,7 +12,7 @@
 		(date "2026-10-21")
 		(rev "v1.0")
 		(company "Open Hardware Portfolio")
-		(comment 1 "Author: Eswar (ECE, Class of 2026)")
+		(comment 1 "Author: Kanchi Eswar Ram kumar (ECE, Class of 2026)")
 		(comment 2 "ESP32-WROOM-32 + SHT31-DIS + AP2112K-3.3")
 	)
 	(layers
